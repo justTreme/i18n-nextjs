@@ -7,7 +7,7 @@ export const useTranslation = (locale?: string) => {
         key: string,
         variables?: { [variable: string]: string | number }
     ) => {
-        let data = require(`./public/locales/${locale ?? router.locale}.json`);
+        let data = require(`../../../../public/locales/${locale ?? router.locale}.json`);
         const keyPart = key.split(".");
 
         for (let i = 0; i < keyPart.length; i++) {
