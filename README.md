@@ -45,4 +45,4 @@ Structure of the locale file:
 
 ### 👩🏻‍⚖️ License
 
-- Framer Motion is MIT licensed.
+- i18n-nextjs is MIT licensed.
